@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/samsung/zerofltexx/full_zerofltexx.mk)
+$(call inherit-product, device/samsung/zeroltexx/full_zeroltexx.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/dokdo/config/nfc_enhanced.mk)
@@ -22,5 +22,5 @@ $(call inherit-product, vendor/dokdo/config/nfc_enhanced.mk)
 # Inherit common Dokdo phone.
 $(call inherit-product, vendor/dokdo/config/common_full_phone.mk)
 
-PRODUCT_DEVICE := zerofltexx
-PRODUCT_NAME := dokdo_zerofltexx
+PRODUCT_DEVICE := zeroltexx
+PRODUCT_NAME := dokdo_zeroltexx

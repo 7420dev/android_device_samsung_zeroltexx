@@ -83,7 +83,7 @@ struct power_module HAL_MODULE_INFO_SYM = {
         .module_api_version = POWER_MODULE_API_VERSION_0_2,
         .hal_api_version = HARDWARE_HAL_API_VERSION,
         .id = POWER_HARDWARE_MODULE_ID,
-        .name = "ZEROFLTE Power Module",
+        .name = "ZEROLTE Power Module",
         .author = "The Dokdo Project",
         .methods = &power_module_methods,
     },

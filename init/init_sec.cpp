@@ -48,36 +48,36 @@ void vendor_load_properties()
 
     property_get("ro.bootloader", bootloader);
 
-    if (strstr(bootloader, "G920S")) {
-        /* zeroflteskt */
-        property_set("ro.build.fingerprint", "samsung/zeroflteskt/zeroflteskt:5.1.1/LMY47X/G920SXXS3COK5:user/release-keys");
-        property_set("ro.build.description", "zeroflteskt-user 5.1.1 LMY47X G920SXXS3COK5 release-keys");
-        property_set("ro.product.model", "SM-G920S");
-        property_set("ro.product.device", "zeroflteskt");
-    } else if (strstr(bootloader, "G920K")) {
-        /* zerofltektt */
-        property_set("ro.build.fingerprint", "samsung/zerofltelgt/zerofltelgt:5.1.1/LMY47X/G920KXXS3COK5:user/release-keys");
-        property_set("ro.build.description", "zerofltektt-user 5.1.1 LMY47X G920KXXS3COK5 release-keys");
-        property_set("ro.product.model", "SM-G920K");
-        property_set("ro.product.device", "zerofltektt");
-    } else if (strstr(bootloader, "G920L")) {
-        /* zerofltelgt */
-        property_set("ro.build.fingerprint", "samsung/zerofltelgt/zerofltelgt:5.1.1/LMY47X/G920LXXS3COK5:user/release-keys");
-        property_set("ro.build.description", "zerofltelgt-user 5.1.1 LMY47X G920LXXS3COK5 release-keys");
-        property_set("ro.product.model", "SM-G920L");
-        property_set("ro.product.device", "zerofltelgt");
-    } else if (strstr(bootloader, "G920I")) {
-        /* zerofltexx */
-        property_set("ro.build.fingerprint", "samsung/zerofltexx/zerofltexx:5.1.1/LMY47X/G920IXXS3COK5:user/release-keys");
-        property_set("ro.build.description", "zerofltexx-user 5.1.1 LMY47X G920IXXS3COK5 release-keys");
-        property_set("ro.product.model", "SM-G920I");
-        property_set("ro.product.device", "zerofltexx");
+    if (strstr(bootloader, "G925S")) {
+        /* zerolteskt */
+        property_set("ro.build.fingerprint", "samsung/zerolteskt/zerolteskt:5.1.1/LMY47X/G925SXXS3COK5:user/release-keys");
+        property_set("ro.build.description", "zerolteskt-user 5.1.1 LMY47X G925SXXS3COK5 release-keys");
+        property_set("ro.product.model", "SM-G925S");
+        property_set("ro.product.device", "zerolteskt");
+    } else if (strstr(bootloader, "G925K")) {
+        /* zeroltektt */
+        property_set("ro.build.fingerprint", "samsung/zeroltelgt/zeroltelgt:5.1.1/LMY47X/G925KXXS3COK5:user/release-keys");
+        property_set("ro.build.description", "zeroltektt-user 5.1.1 LMY47X G925KXXS3COK5 release-keys");
+        property_set("ro.product.model", "SM-G925K");
+        property_set("ro.product.device", "zeroltektt");
+    } else if (strstr(bootloader, "G925L")) {
+        /* zeroltelgt */
+        property_set("ro.build.fingerprint", "samsung/zeroltelgt/zeroltelgt:5.1.1/LMY47X/G925LXXS3COK5:user/release-keys");
+        property_set("ro.build.description", "zeroltelgt-user 5.1.1 LMY47X G925LXXS3COK5 release-keys");
+        property_set("ro.product.model", "SM-G925L");
+        property_set("ro.product.device", "zeroltelgt");
+    } else if (strstr(bootloader, "G925I")) {
+        /* zeroltexx */
+        property_set("ro.build.fingerprint", "samsung/zeroltexx/zeroltexx:5.1.1/LMY47X/G925IXXS3COK5:user/release-keys");
+        property_set("ro.build.description", "zeroltexx-user 5.1.1 LMY47X G925IXXS3COK5 release-keys");
+        property_set("ro.product.model", "SM-G925I");
+        property_set("ro.product.device", "zeroltexx");
     } else {
-        /* zerofltexx */
-        property_set("ro.build.fingerprint", "samsung/zerofltexx/zerofltexx:5.1.1/LMY47X/G920FXXS3COK5:user/release-keys");
-        property_set("ro.build.description", "zerofltexx-user 5.1.1 LMY47X G920FXXS3COK5 release-keys");
-        property_set("ro.product.model", "SM-G920F");
-        property_set("ro.product.device", "zerofltexx");
+        /* zeroltexx */
+        property_set("ro.build.fingerprint", "samsung/zeroltexx/zeroltexx:5.1.1/LMY47X/G925FXXS3COK5:user/release-keys");
+        property_set("ro.build.description", "zeroltexx-user 5.1.1 LMY47X G925FXXS3COK5 release-keys");
+        property_set("ro.product.model", "SM-G925F");
+        property_set("ro.product.device", "zeroltexx");
     }
 
     property_get("ro.product.device", device);
